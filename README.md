@@ -2,7 +2,7 @@
 
 On The Point Archery Club is a full-featured web application built using Flask (Python) designed to manage and enhance the experience of an archery training center. The system supports class bookings, event management, memberships, instructor profiles, and equipment rentals in a structured and user-friendly platform.
 
-🚀 Features
+🚀 Features\
 🏹 Program and class management (Beginner, Youth, Advanced)
 📅 Booking system for classes, private lessons, and events
 🎯 Equipment rental management

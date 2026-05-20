@@ -1,0 +1,48 @@
+:root {
+    --forest-green: #1B4332;
+    --gold: #D4AF37;
+    --light-bg: #F8F9FA;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: var(--light-bg);
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--forest-green);
+}
+
+/* Buttons */
+.btn-primary {
+    background: var(--gold);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-secondary {
+    border: 2px solid var(--forest-green);
+    color: var(--forest-green);
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+/* Layout */
+.container {
+    padding: 20px;
+}
+
+/* Responsive Grid */
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+@media(min-width: 768px) {
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+}
